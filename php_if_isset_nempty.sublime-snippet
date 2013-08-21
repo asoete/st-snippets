@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+if( isset(\$${1:data}['${2:key}']) and !empty(\$${1:data}['${2:key}']) )
+{
+  $3
+}
+]]></content>
+  <tabTrigger>if_isset_nempty</tabTrigger>
+  <scope>source.php</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+foreach( \$${1:array} as \$${2:key} ${3:=> \$${4:value}} ) :
+]]></content>
+  <tabTrigger>vforeach</tabTrigger>
+  <scope>source.php</scope>
+</snippet>
